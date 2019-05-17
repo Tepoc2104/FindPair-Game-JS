@@ -1,0 +1,49 @@
+.main-block{
+    width: 570px;
+    height: 570px;
+    float:left;
+}
+.block{
+    width: 140px;
+    height: 140px;
+    float: left;
+    border:solid black 1px;
+}
+.black{
+    background: black;
+}
+.white{
+    background: white;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.brown{
+    background: brown;
+}
+.orange{
+     background: orange;
+ }
+.pink{
+    background: pink;
+}
+#maindiv{
+    width: 630px;
+    height: 630px;
+    margin: 30px auto;
+}
+.disabled {
+    pointer-events: none;
+    -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+    user-select: none;
+}
+.disabled *:focus { outline: 0; }
